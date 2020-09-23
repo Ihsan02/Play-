@@ -1,0 +1,8 @@
+Setting dualCore = coreSection.getSetting(SettingsFile.KEY_DUAL_CORE);
+
+ sl.add(new CheckBoxSetting(SettingsFile.KEY_DUAL_CORE, Settings.SECTION_INI_CORE,
+      R.string.dual_core, R.string.dual_core_description, true, dualCore));
+      
+   public static final String KEY_DUAL_CORE = "CPUThread";
+   
+   
